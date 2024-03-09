@@ -663,7 +663,7 @@ header .info .barinfo {
 }
 
 .cookingoilchallengecontainer h4 {
-    font-size: 18px;
+    font-size: 16.5px;
     font-weight: 900;
     color: #03c04a;
     margin-bottom: 20px;
@@ -671,7 +671,7 @@ header .info .barinfo {
 }
 
 .cookingoilchallengecontainer h2 {
-    font-size: 94px;
+    font-size: 36px;
     margin-bottom: 30px;
     font-weight: 900;
     color: black;
@@ -687,7 +687,7 @@ header .info .barinfo {
 }
 
 .cookingoilchallengecontainer p {
-    font-size: 62px;
+    font-size: 34px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-font-smoothing: antialiased;
@@ -708,7 +708,7 @@ header .info .barinfo {
 }
 
 .cookingoilchallenge-rows {
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 100px;
 }
 
@@ -722,7 +722,14 @@ header .info .barinfo {
     -webkit-text-fill-color: transparent; 
     -webkit-background-clip: text; 
     font-weight: 900;
-    font-size: 26px;
+    font-size: 15.5px;
+    margin-top: 15px;
+}
+
+.cookingoilchallengecontainer h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
 }
 /*Mission*/
 
