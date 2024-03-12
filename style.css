@@ -708,7 +708,7 @@ header .info .barinfo {
 }
 
 .cookingoilchallenge-rows {
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 
@@ -1970,6 +1970,96 @@ header .info .barinfo {
         bottom: 0;
         text-align: center;
     }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
 }
 
 /*Responsive Samsung Galaxy S8*/
@@ -1983,6 +2073,97 @@ header .info .barinfo {
         font-family: "Geologica", sans-serif;
         scroll-behavior: smooth;
     }
+    
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
     .welcome {
         right: 0;
         width: 100%;
@@ -2785,6 +2966,97 @@ header .info .barinfo {
         font-family: "Geologica", sans-serif;
         scroll-behavior: smooth;
     }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
     .welcome {
         right: 0;
         width: 100%;
@@ -3587,6 +3859,100 @@ header .info .barinfo {
         font-family: "Geologica", sans-serif;
         scroll-behavior: smooth;
     }
+
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+
+
     .welcome {
         right: 0;
         width: 100%;
@@ -4389,6 +4755,99 @@ header .info .barinfo {
         font-family: "Geologica", sans-serif;
         scroll-behavior: smooth;
     }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+
+
     .welcome {
         right: 0;
         width: 100%;
@@ -5190,6 +5649,96 @@ header .info .barinfo {
         box-sizing: border-box;
         font-family: "Geologica", sans-serif;
         scroll-behavior: smooth;
+    }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
     }
     .welcome {
         right: 0;
@@ -5993,6 +6542,98 @@ header .info .barinfo {
         font-family: "Geologica", sans-serif;
         scroll-behavior: smooth;
     }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+
     .welcome {
         right: 0;
         width: 100%;
@@ -6795,6 +7436,98 @@ header .info .barinfo {
         font-family: "Geologica", sans-serif;
         scroll-behavior: smooth;
     }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+
     .welcome {
         right: 0;
         width: 100%;
@@ -7610,6 +8343,96 @@ header .info .barinfo {
         color: white;
         z-index: 2;
     }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
     .welcome video {
         position: absolute;
         top: 0;
@@ -8398,6 +9221,96 @@ header .info .barinfo {
         box-sizing: border-box;
         font-family: "Geologica", sans-serif;
         scroll-behavior: smooth;
+    }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
     }
     .welcome {
         right: 0;
@@ -9214,6 +10127,97 @@ header .info .barinfo {
         color: white;
         z-index: 2;
     }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
     .welcome video {
         position: absolute;
         top: 0;
@@ -10003,6 +11007,97 @@ header .info .barinfo {
         font-family: "Geologica", sans-serif;
         scroll-behavior: smooth;
     }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
     .welcome {
         right: 0;
         width: 100%;
@@ -10805,6 +11900,99 @@ header .info .barinfo {
         font-family: "Geologica", sans-serif;
         scroll-behavior: smooth;
     }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+
+
     .welcome {
         right: 0;
         width: 100%;
@@ -11606,6 +12794,96 @@ header .info .barinfo {
         box-sizing: border-box;
         font-family: "Geologica", sans-serif;
         scroll-behavior: smooth;
+    }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
     }
     .welcome {
         right: 0;
@@ -12409,6 +13687,95 @@ header .info .barinfo {
         font-family: "Geologica", sans-serif;
         scroll-behavior: smooth;
     }
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
     .welcome {
         right: 0;
         width: 100%;
@@ -13210,6 +14577,96 @@ header .info .barinfo {
         box-sizing: border-box;
         font-family: "Geologica", sans-serif;
         scroll-behavior: smooth;
+    }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
     }
     .welcome {
         right: 0;
@@ -14013,6 +15470,96 @@ header .info .barinfo {
         font-family: "Geologica", sans-serif;
         scroll-behavior: smooth;
     }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
     .welcome {
         right: 0;
         width: 100%;
@@ -14814,6 +16361,97 @@ header .info .barinfo {
         box-sizing: border-box;
         font-family: "Geologica", sans-serif;
         scroll-behavior: smooth;
+    }
+
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
     }
     .welcome {
         right: 0;
@@ -15617,6 +17255,96 @@ header .info .barinfo {
         font-family: "Geologica", sans-serif;
         scroll-behavior: smooth;
     }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
     .welcome {
         right: 0;
         width: 100%;
@@ -16419,6 +18147,96 @@ header .info .barinfo {
         font-family: "Geologica", sans-serif;
         scroll-behavior: smooth;
     }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
     .welcome {
         right: 0;
         width: 100%;
@@ -17220,6 +19038,96 @@ header .info .barinfo {
         box-sizing: border-box;
         font-family: "Geologica", sans-serif;
         scroll-behavior: smooth;
+    }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
     }
     .welcome {
         right: 0;
