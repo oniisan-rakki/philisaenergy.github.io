@@ -17332,3 +17332,8083 @@ header .info .barinfo {
 }
 
 /*Responsive Samsung Galaxy A51/71*/
+
+@media only screen and (min-width:411.5px) and (max-width:412.5px) and (min-height:913.5px) and (max-height:914.5px) {
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Geologica", sans-serif;
+        scroll-behavior: smooth;
+    }
+
+    .welcome {
+        right: 0;
+        width: 100%;
+        min-height: 90vh;
+        position: relative;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #111;
+        color: white;
+        z-index: 2;
+    }
+
+    .welcome video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.6;
+    }
+    
+    .welcomeoverlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: 0.4;
+        mix-blend-mode: overlay;
+    }
+    
+    .welcometext {
+        position: relative;
+        z-index: 10;
+        align-items: center;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,0);
+        padding: 16px;
+    }
+    
+    .welcometext h1 {
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: 500;
+        line-height: 2.15rem;
+        margin-bottom: 15px;
+        letter-spacing: 0.35px;
+    }
+    
+    .welcometext p {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-weight: 100;
+    }
+    
+    .welcometext a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    
+    .welcome .scrolldown {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+        text-align: center;
+    }
+    
+    .welcome .scrolldown p {
+        font-size: 14.5px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    .welcome .scrolldown i {
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+    }
+    
+    .whoweare {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .oursolutions {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .careers {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .whoweare-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12.5px 15px;
+    }
+
+    .oursolutions-container {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .careers-container {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .whoweare-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .oursolutions-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .careers-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .whoweare-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .oursoltions-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .careers-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+    
+    .whoweare-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+
+    .oursoltions-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+
+    .careers-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+    
+    .whoweare-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .oursolutions-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .careers-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .whoweare-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .oursolutions-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .careers-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .whoweare-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .oursolutions-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .careers-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .whoweare-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+
+    .oursolutions-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+
+    .careers-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+    
+    .whoweare-content .space {
+        margin-top: 40px;
+    }
+
+    .oursolutions-content .space {
+        margin-top: 40px;
+    }
+
+    .careers-content .space {
+        margin-top: 40px;
+    }
+    
+    .whoweare-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .oursolutions-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .careers-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .stats-section {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        background: #ececec;
+        min-height: 205.5vh;
+        align-items: center;
+    }
+
+    .stats-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px 5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .stats-container h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 7.5px;
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+
+    .stats-container h2 {
+        font-size: 28px;
+        margin-bottom: 13.5px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+    }
+
+    .stats-rows {
+        margin-bottom: 20px;
+    }
+
+    .stats-columns {
+        float: left;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .stats-columns img {
+        width: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        transition: 0.3s;
+    }
+
+    .stats-columns h3 {
+        font-size: 21.5px;
+        color: black;
+        font-weight: 900;
+        margin-bottom: 12.5px;
+        margin-top: 7.5px;
+    }
+
+    .stats-columns p {
+        font-size: 14.5px;
+        color: #111;
+        margin-bottom: 7.5px;
+        padding: 0px 21px;
+    }
+
+    .stats-container a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .oursolutions-content b {
+        font-weight: 600;
+    }
+
+    .ourmissionsection {
+        width: 100%;
+        padding: 10px;
+        background: #ececec;
+        min-height: 90vh;
+        align-items: center;
+    }
+
+    .ourmissioncolumn-twenty {
+        float: left;
+        width: 100%;
+        margin-top: 25px;
+        text-align: center;
+        margin-bottom: 27.5px;
+    }
+
+    .ourmissioncolumn-twenty h1 {
+        display: none;
+    }
+
+    .ourmissioncolumn-twenty h2 {
+        font-size: 28px;
+        margin-top: 60px;
+        font-weight: 900;
+        text-align: center;
+        display: inline;
+        background: -webkit-linear-gradient(#000000 ,#03c04a );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .ourmissioncolumn-forty {
+        float: left;
+        width: 100%;
+        margin-top: 0px;
+        padding: 0px 12.5px;
+    }
+
+    .ourmissioncard {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 50px 38px;
+        border-radius: 40px;
+        background: #03c04a;
+        width: 100%;
+        min-height: 380px;
+        margin-bottom: 40px;
+    }
+
+    .ourmissioncard h3 {
+        font-size: 21.5px;
+        color: white;
+        font-weight: 800;
+        line-height: 2.05rem;
+        margin-bottom: 10px;
+    }
+
+    .ourmissioncard p {
+        font-size: 16px;
+        color: white;
+        font-weight: 300;
+        line-height: 1.5rem;
+        margin-top: 17.5px;
+    }
+
+    .industrynews {
+        padding: 10px;
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .industrynews-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12.5px 12.5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .industrynews .industry-left {
+        display: none;
+    }
+
+    .industrynews .industrynewsbottombutton {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+        display: inline;
+    }
+
+    .industrynews .industrynewsbottombutton a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .industrynewscolumn {
+        float: left;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 45px;
+    }
+
+    .industrynewscontainer img {
+        height: 300px;
+        width: 100%;
+        display: block;
+        transition: 0.5s ease;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        object-fit: cover;
+    }
+
+    .industrynewscontainer {
+        height: 650px;
+        width: 100%;
+        border: 1px solid #ececec;
+        border-radius: 15px;
+    }
+
+    .industrynews h1 {
+        font-size: 28px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .industrynewscontent .category {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: black;
+        line-height: 1.9rem;
+        margin-bottom: 5px;
+    }
+
+    .industrynewscontent .date {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #03c04a;
+        line-height: 1.5rem;
+    }
+
+    .industrynewscontent .title {
+        font-size: 15px;
+        color: black;
+        font-weight: 700;
+        line-height: 1.4rem;
+        transition: 0.5s;
+    }
+
+    .industrynewscontent p {
+        color: #777777;
+        font-size: 14.5px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 15px 0px;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 15px;
+        min-height: 145vh;
+        align-items: center;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+        margin-top: 40px;
+    }
+
+    .footercolumn15 {
+        width: 100%;
+        float: left;
+        padding: 15px;
+    }
+
+    .footercolumn30 {
+        width: 100%;
+        float: left;
+        padding: 15px;
+        margin-right: 65px;
+        margin-bottom: 60px;
+    }
+
+    .copyright {
+        height: 90px;
+        background: #03c04a;
+        width: 100%;
+        align-items: center;
+    }
+
+    .copyrightcontainer {
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .copyright-left {
+        float: left; 
+        text-align: center;
+        width: 100%;
+    }
+
+    .copyright-right {
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .copyright-left p {
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .copyright-right p {
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .copyright-left a {
+        text-decoration: none;
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    header img {
+        margin-top: 0px;
+        width: 160px;
+        height: 100px;
+        margin-left: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    header .navigation {
+        position: relative;
+        line-height: 75px;
+        margin-right: 60px;
+        display: none;
+    }
+
+    header .bar {
+        background: #03c04a;
+        height: 35px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 82.5%;
+        border-bottom-left-radius: 75px;
+        display: none;
+    }
+
+    header {
+        z-index: 999;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+        transition: 0.6s;
+        height: 115px;
+    }
+
+    .hamburger {
+        display: block;
+        margin-right: 20px;
+    }
+
+    #hamburger {
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        background: linear-gradient( to right,#03c04a, #00FF00);
+        border: none;
+        margin-top: 15px;
+        font-size: 20px;
+        align-items: center;
+        place-items: center;
+        color: white;
+        font-weight: 900;
+        display: grid;
+    }
+
+    #close {
+        display: none;
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        background: linear-gradient( to right,#03c04a, #00FF00);
+        border: none;
+        margin-top: 15px;
+        font-size: 20px;
+        align-items: center;
+        place-items: center;
+        color: white;
+        font-weight: 900;
+    }
+
+    #mobile-menu {
+        position: fixed;
+        display: none;
+        align-items: center;
+        text-align: left;
+        width: 100%;
+        z-index: 99999;
+        background: #ececec;
+        min-height: 70vh;
+        padding: 40px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .mobile-menu a {
+        font-size: 14.5px;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+
+    .mobile-menu i {
+        font-size: 11.5px;
+        margin-left: 5px;
+    }
+
+    .mobile-menu .mobile-social a {
+        color: black;
+        font-size: 18px;
+    }
+
+    .mobile-menu .mobile-social i {
+        font-size: 18px;
+        margin-right: 10px;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+}
+
+/*Responsive Samsung Galaxy A30*/
+
+@media only screen and (min-width:411.5px) and (max-width:412.5px) and (min-height:891.5px) and (max-height:892.5px) {
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Geologica", sans-serif;
+        scroll-behavior: smooth;
+    }
+
+    .welcome {
+        right: 0;
+        width: 100%;
+        min-height: 90vh;
+        position: relative;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #111;
+        color: white;
+        z-index: 2;
+    }
+
+    .welcome video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.6;
+    }
+    
+    .welcomeoverlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: 0.4;
+        mix-blend-mode: overlay;
+    }
+    
+    .welcometext {
+        position: relative;
+        z-index: 10;
+        align-items: center;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,0);
+        padding: 16px;
+    }
+    
+    .welcometext h1 {
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: 500;
+        line-height: 2.15rem;
+        margin-bottom: 15px;
+        letter-spacing: 0.35px;
+    }
+    
+    .welcometext p {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-weight: 100;
+    }
+    
+    .welcometext a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    
+    .welcome .scrolldown {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+        text-align: center;
+    }
+    
+    .welcome .scrolldown p {
+        font-size: 14.5px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    .welcome .scrolldown i {
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+    }
+    
+    .whoweare {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .oursolutions {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .careers {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .whoweare-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12.5px 15px;
+    }
+
+    .oursolutions-container {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .careers-container {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .whoweare-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .oursolutions-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .careers-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .whoweare-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .oursoltions-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .careers-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+    
+    .whoweare-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+
+    .oursoltions-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+
+    .careers-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+    
+    .whoweare-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .oursolutions-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .careers-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .whoweare-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .oursolutions-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .careers-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .whoweare-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .oursolutions-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .careers-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .whoweare-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+
+    .oursolutions-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+
+    .careers-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+    
+    .whoweare-content .space {
+        margin-top: 40px;
+    }
+
+    .oursolutions-content .space {
+        margin-top: 40px;
+    }
+
+    .careers-content .space {
+        margin-top: 40px;
+    }
+    
+    .whoweare-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .oursolutions-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .careers-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .stats-section {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        background: #ececec;
+        min-height: 205.5vh;
+        align-items: center;
+    }
+
+    .stats-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px 5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .stats-container h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 7.5px;
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+
+    .stats-container h2 {
+        font-size: 28px;
+        margin-bottom: 13.5px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+    }
+
+    .stats-rows {
+        margin-bottom: 20px;
+    }
+
+    .stats-columns {
+        float: left;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .stats-columns img {
+        width: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        transition: 0.3s;
+    }
+
+    .stats-columns h3 {
+        font-size: 21.5px;
+        color: black;
+        font-weight: 900;
+        margin-bottom: 12.5px;
+        margin-top: 7.5px;
+    }
+
+    .stats-columns p {
+        font-size: 14.5px;
+        color: #111;
+        margin-bottom: 7.5px;
+        padding: 0px 21px;
+    }
+
+    .stats-container a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .oursolutions-content b {
+        font-weight: 600;
+    }
+
+    .ourmissionsection {
+        width: 100%;
+        padding: 10px;
+        background: #ececec;
+        min-height: 90vh;
+        align-items: center;
+    }
+
+    .ourmissioncolumn-twenty {
+        float: left;
+        width: 100%;
+        margin-top: 25px;
+        text-align: center;
+        margin-bottom: 27.5px;
+    }
+
+    .ourmissioncolumn-twenty h1 {
+        display: none;
+    }
+
+    .ourmissioncolumn-twenty h2 {
+        font-size: 28px;
+        margin-top: 60px;
+        font-weight: 900;
+        text-align: center;
+        display: inline;
+        background: -webkit-linear-gradient(#000000 ,#03c04a );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .ourmissioncolumn-forty {
+        float: left;
+        width: 100%;
+        margin-top: 0px;
+        padding: 0px 12.5px;
+    }
+
+    .ourmissioncard {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 50px 38px;
+        border-radius: 40px;
+        background: #03c04a;
+        width: 100%;
+        min-height: 380px;
+        margin-bottom: 40px;
+    }
+
+    .ourmissioncard h3 {
+        font-size: 21.5px;
+        color: white;
+        font-weight: 800;
+        line-height: 2.05rem;
+        margin-bottom: 10px;
+    }
+
+    .ourmissioncard p {
+        font-size: 16px;
+        color: white;
+        font-weight: 300;
+        line-height: 1.5rem;
+        margin-top: 17.5px;
+    }
+
+    .industrynews {
+        padding: 10px;
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .industrynews-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12.5px 12.5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .industrynews .industry-left {
+        display: none;
+    }
+
+    .industrynews .industrynewsbottombutton {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+        display: inline;
+    }
+
+    .industrynews .industrynewsbottombutton a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .industrynewscolumn {
+        float: left;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 45px;
+    }
+
+    .industrynewscontainer img {
+        height: 300px;
+        width: 100%;
+        display: block;
+        transition: 0.5s ease;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        object-fit: cover;
+    }
+
+    .industrynewscontainer {
+        height: 650px;
+        width: 100%;
+        border: 1px solid #ececec;
+        border-radius: 15px;
+    }
+
+    .industrynews h1 {
+        font-size: 28px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .industrynewscontent .category {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: black;
+        line-height: 1.9rem;
+        margin-bottom: 5px;
+    }
+
+    .industrynewscontent .date {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #03c04a;
+        line-height: 1.5rem;
+    }
+
+    .industrynewscontent .title {
+        font-size: 15px;
+        color: black;
+        font-weight: 700;
+        line-height: 1.4rem;
+        transition: 0.5s;
+    }
+
+    .industrynewscontent p {
+        color: #777777;
+        font-size: 14.5px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 15px 0px;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 15px;
+        min-height: 145vh;
+        align-items: center;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+        margin-top: 40px;
+    }
+
+    .footercolumn15 {
+        width: 100%;
+        float: left;
+        padding: 15px;
+    }
+
+    .footercolumn30 {
+        width: 100%;
+        float: left;
+        padding: 15px;
+        margin-right: 65px;
+        margin-bottom: 60px;
+    }
+
+    .copyright {
+        height: 90px;
+        background: #03c04a;
+        width: 100%;
+        align-items: center;
+    }
+
+    .copyrightcontainer {
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .copyright-left {
+        float: left; 
+        text-align: center;
+        width: 100%;
+    }
+
+    .copyright-right {
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .copyright-left p {
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .copyright-right p {
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .copyright-left a {
+        text-decoration: none;
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    header img {
+        margin-top: 0px;
+        width: 160px;
+        height: 100px;
+        margin-left: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    header .navigation {
+        position: relative;
+        line-height: 75px;
+        margin-right: 60px;
+        display: none;
+    }
+
+    header .bar {
+        background: #03c04a;
+        height: 35px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 82.5%;
+        border-bottom-left-radius: 75px;
+        display: none;
+    }
+
+    header {
+        z-index: 999;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+        transition: 0.6s;
+        height: 115px;
+    }
+
+    .hamburger {
+        display: block;
+        margin-right: 20px;
+    }
+
+    #hamburger {
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        background: linear-gradient( to right,#03c04a, #00FF00);
+        border: none;
+        margin-top: 15px;
+        font-size: 20px;
+        align-items: center;
+        place-items: center;
+        color: white;
+        font-weight: 900;
+        display: grid;
+    }
+
+    #close {
+        display: none;
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        background: linear-gradient( to right,#03c04a, #00FF00);
+        border: none;
+        margin-top: 15px;
+        font-size: 20px;
+        align-items: center;
+        place-items: center;
+        color: white;
+        font-weight: 900;
+    }
+
+    #mobile-menu {
+        position: fixed;
+        display: none;
+        align-items: center;
+        text-align: left;
+        width: 100%;
+        z-index: 99999;
+        background: #ececec;
+        min-height: 70vh;
+        padding: 40px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .mobile-menu a {
+        font-size: 14.5px;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+
+    .mobile-menu i {
+        font-size: 11.5px;
+        margin-left: 5px;
+    }
+
+    .mobile-menu .mobile-social a {
+        color: black;
+        font-size: 18px;
+    }
+
+    .mobile-menu .mobile-social i {
+        font-size: 18px;
+        margin-right: 10px;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+}
+
+/*Responsive Pixel 3*/
+
+@media only screen and (min-width:392.5px) and (max-width:393.5px) and (min-height:785.5px) and (max-height:786.5px) {
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Geologica", sans-serif;
+        scroll-behavior: smooth;
+    }
+
+    .welcome {
+        right: 0;
+        width: 100%;
+        min-height: 90vh;
+        position: relative;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #111;
+        color: white;
+        z-index: 2;
+    }
+
+    .welcome video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.6;
+    }
+    
+    .welcomeoverlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: 0.4;
+        mix-blend-mode: overlay;
+    }
+    
+    .welcometext {
+        position: relative;
+        z-index: 10;
+        align-items: center;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,0);
+        padding: 16px;
+    }
+    
+    .welcometext h1 {
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: 500;
+        line-height: 2.15rem;
+        margin-bottom: 15px;
+        letter-spacing: 0.35px;
+    }
+    
+    .welcometext p {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-weight: 100;
+    }
+    
+    .welcometext a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    
+    .welcome .scrolldown {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+        text-align: center;
+    }
+    
+    .welcome .scrolldown p {
+        font-size: 14.5px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    .welcome .scrolldown i {
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+    }
+    
+    .whoweare {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .oursolutions {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .careers {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .whoweare-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12.5px 15px;
+    }
+
+    .oursolutions-container {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .careers-container {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .whoweare-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .oursolutions-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .careers-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .whoweare-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .oursoltions-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .careers-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+    
+    .whoweare-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+
+    .oursoltions-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+
+    .careers-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+    
+    .whoweare-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .oursolutions-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .careers-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .whoweare-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .oursolutions-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .careers-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .whoweare-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .oursolutions-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .careers-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .whoweare-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+
+    .oursolutions-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+
+    .careers-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+    
+    .whoweare-content .space {
+        margin-top: 40px;
+    }
+
+    .oursolutions-content .space {
+        margin-top: 40px;
+    }
+
+    .careers-content .space {
+        margin-top: 40px;
+    }
+    
+    .whoweare-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .oursolutions-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .careers-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .stats-section {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        background: #ececec;
+        min-height: 235.5vh;
+        align-items: center;
+    }
+
+    .stats-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px 5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .stats-container h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 7.5px;
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+
+    .stats-container h2 {
+        font-size: 28px;
+        margin-bottom: 13.5px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+    }
+
+    .stats-rows {
+        margin-bottom: 20px;
+    }
+
+    .stats-columns {
+        float: left;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .stats-columns img {
+        width: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        transition: 0.3s;
+    }
+
+    .stats-columns h3 {
+        font-size: 21.5px;
+        color: black;
+        font-weight: 900;
+        margin-bottom: 12.5px;
+        margin-top: 7.5px;
+    }
+
+    .stats-columns p {
+        font-size: 14.5px;
+        color: #111;
+        margin-bottom: 7.5px;
+        padding: 0px 21px;
+    }
+
+    .stats-container a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .oursolutions-content b {
+        font-weight: 600;
+    }
+
+    .ourmissionsection {
+        width: 100%;
+        padding: 10px;
+        background: #ececec;
+        min-height: 90vh;
+        align-items: center;
+    }
+
+    .ourmissioncolumn-twenty {
+        float: left;
+        width: 100%;
+        margin-top: 25px;
+        text-align: center;
+        margin-bottom: 27.5px;
+    }
+
+    .ourmissioncolumn-twenty h1 {
+        display: none;
+    }
+
+    .ourmissioncolumn-twenty h2 {
+        font-size: 28px;
+        margin-top: 60px;
+        font-weight: 900;
+        text-align: center;
+        display: inline;
+        background: -webkit-linear-gradient(#000000 ,#03c04a );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .ourmissioncolumn-forty {
+        float: left;
+        width: 100%;
+        margin-top: 0px;
+        padding: 0px 12.5px;
+    }
+
+    .ourmissioncard {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 50px 38px;
+        border-radius: 40px;
+        background: #03c04a;
+        width: 100%;
+        min-height: 380px;
+        margin-bottom: 40px;
+    }
+
+    .ourmissioncard h3 {
+        font-size: 21.5px;
+        color: white;
+        font-weight: 800;
+        line-height: 2.05rem;
+        margin-bottom: 10px;
+    }
+
+    .ourmissioncard p {
+        font-size: 16px;
+        color: white;
+        font-weight: 300;
+        line-height: 1.5rem;
+        margin-top: 17.5px;
+    }
+
+    .industrynews {
+        padding: 10px;
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .industrynews-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12.5px 12.5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .industrynews .industry-left {
+        display: none;
+    }
+
+    .industrynews .industrynewsbottombutton {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+        display: inline;
+    }
+
+    .industrynews .industrynewsbottombutton a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .industrynewscolumn {
+        float: left;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 45px;
+    }
+
+    .industrynewscontainer img {
+        height: 300px;
+        width: 100%;
+        display: block;
+        transition: 0.5s ease;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        object-fit: cover;
+    }
+
+    .industrynewscontainer {
+        height: 650px;
+        width: 100%;
+        border: 1px solid #ececec;
+        border-radius: 15px;
+    }
+
+    .industrynews h1 {
+        font-size: 28px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .industrynewscontent .category {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: black;
+        line-height: 1.9rem;
+        margin-bottom: 5px;
+    }
+
+    .industrynewscontent .date {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #03c04a;
+        line-height: 1.5rem;
+    }
+
+    .industrynewscontent .title {
+        font-size: 15px;
+        color: black;
+        font-weight: 700;
+        line-height: 1.4rem;
+        transition: 0.5s;
+    }
+
+    .industrynewscontent p {
+        color: #777777;
+        font-size: 14.5px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 15px 0px;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 15px;
+        min-height: 165vh;
+        align-items: center;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+        margin-top: 40px;
+    }
+
+    .footercolumn15 {
+        width: 100%;
+        float: left;
+        padding: 15px;
+    }
+
+    .footercolumn30 {
+        width: 100%;
+        float: left;
+        padding: 15px;
+        margin-right: 65px;
+        margin-bottom: 60px;
+    }
+
+    .copyright {
+        height: 90px;
+        background: #03c04a;
+        width: 100%;
+        align-items: center;
+    }
+
+    .copyrightcontainer {
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .copyright-left {
+        float: left; 
+        text-align: center;
+        width: 100%;
+    }
+
+    .copyright-right {
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .copyright-left p {
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .copyright-right p {
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .copyright-left a {
+        text-decoration: none;
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    header img {
+        margin-top: 0px;
+        width: 160px;
+        height: 100px;
+        margin-left: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    header .navigation {
+        position: relative;
+        line-height: 75px;
+        margin-right: 60px;
+        display: none;
+    }
+
+    header .bar {
+        background: #03c04a;
+        height: 35px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 82.5%;
+        border-bottom-left-radius: 75px;
+        display: none;
+    }
+
+    header {
+        z-index: 999;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+        transition: 0.6s;
+        height: 115px;
+    }
+
+    .hamburger {
+        display: block;
+        margin-right: 20px;
+    }
+
+    #hamburger {
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        background: linear-gradient( to right,#03c04a, #00FF00);
+        border: none;
+        margin-top: 15px;
+        font-size: 20px;
+        align-items: center;
+        place-items: center;
+        color: white;
+        font-weight: 900;
+        display: grid;
+    }
+
+    #close {
+        display: none;
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        background: linear-gradient( to right,#03c04a, #00FF00);
+        border: none;
+        margin-top: 15px;
+        font-size: 20px;
+        align-items: center;
+        place-items: center;
+        color: white;
+        font-weight: 900;
+    }
+
+    #mobile-menu {
+        position: fixed;
+        display: none;
+        align-items: center;
+        text-align: left;
+        width: 100%;
+        z-index: 99999;
+        background: #ececec;
+        min-height: 70vh;
+        padding: 40px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .mobile-menu a {
+        font-size: 14.5px;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+
+    .mobile-menu i {
+        font-size: 11.5px;
+        margin-left: 5px;
+    }
+
+    .mobile-menu .mobile-social a {
+        color: black;
+        font-size: 18px;
+    }
+
+    .mobile-menu .mobile-social i {
+        font-size: 18px;
+        margin-right: 10px;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+}
+
+/*Responsive Pixel 4*/
+
+@media only screen and (min-width:352.5px) and (max-width:353.5px) and (min-height:744.5px) and (max-height:745.5px) {
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Geologica", sans-serif;
+        scroll-behavior: smooth;
+    }
+
+    .welcome {
+        right: 0;
+        width: 100%;
+        min-height: 90vh;
+        position: relative;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #111;
+        color: white;
+        z-index: 2;
+    }
+
+    .welcome video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.6;
+    }
+    
+    .welcomeoverlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: 0.4;
+        mix-blend-mode: overlay;
+    }
+    
+    .welcometext {
+        position: relative;
+        z-index: 10;
+        align-items: center;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,0);
+        padding: 16px;
+    }
+    
+    .welcometext h1 {
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: 500;
+        line-height: 2.15rem;
+        margin-bottom: 15px;
+        letter-spacing: 0.35px;
+    }
+    
+    .welcometext p {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-weight: 100;
+    }
+    
+    .welcometext a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    
+    .welcome .scrolldown {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+        text-align: center;
+    }
+    
+    .welcome .scrolldown p {
+        font-size: 14.5px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    .welcome .scrolldown i {
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+    }
+    
+    .whoweare {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .oursolutions {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .careers {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .whoweare-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12.5px 15px;
+    }
+
+    .oursolutions-container {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .careers-container {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .whoweare-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .oursolutions-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .careers-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .whoweare-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .oursoltions-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .careers-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+    
+    .whoweare-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+
+    .oursoltions-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+
+    .careers-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+    
+    .whoweare-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .oursolutions-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .careers-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .whoweare-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .oursolutions-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .careers-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .whoweare-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .oursolutions-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .careers-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .whoweare-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+
+    .oursolutions-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+
+    .careers-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+    
+    .whoweare-content .space {
+        margin-top: 40px;
+    }
+
+    .oursolutions-content .space {
+        margin-top: 40px;
+    }
+
+    .careers-content .space {
+        margin-top: 40px;
+    }
+    
+    .whoweare-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .oursolutions-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .careers-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .stats-section {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        background: #ececec;
+        min-height: 255.5vh;
+        align-items: center;
+    }
+
+    .stats-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px 5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .stats-container h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 7.5px;
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+
+    .stats-container h2 {
+        font-size: 28px;
+        margin-bottom: 13.5px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+    }
+
+    .stats-rows {
+        margin-bottom: 20px;
+    }
+
+    .stats-columns {
+        float: left;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .stats-columns img {
+        width: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        transition: 0.3s;
+    }
+
+    .stats-columns h3 {
+        font-size: 21.5px;
+        color: black;
+        font-weight: 900;
+        margin-bottom: 12.5px;
+        margin-top: 7.5px;
+    }
+
+    .stats-columns p {
+        font-size: 14.5px;
+        color: #111;
+        margin-bottom: 7.5px;
+        padding: 0px 21px;
+    }
+
+    .stats-container a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .oursolutions-content b {
+        font-weight: 600;
+    }
+
+    .ourmissionsection {
+        width: 100%;
+        padding: 10px;
+        background: #ececec;
+        min-height: 90vh;
+        align-items: center;
+    }
+
+    .ourmissioncolumn-twenty {
+        float: left;
+        width: 100%;
+        margin-top: 25px;
+        text-align: center;
+        margin-bottom: 27.5px;
+    }
+
+    .ourmissioncolumn-twenty h1 {
+        display: none;
+    }
+
+    .ourmissioncolumn-twenty h2 {
+        font-size: 28px;
+        margin-top: 60px;
+        font-weight: 900;
+        text-align: center;
+        display: inline;
+        background: -webkit-linear-gradient(#000000 ,#03c04a );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .ourmissioncolumn-forty {
+        float: left;
+        width: 100%;
+        margin-top: 0px;
+        padding: 0px 12.5px;
+    }
+
+    .ourmissioncard {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 50px 38px;
+        border-radius: 40px;
+        background: #03c04a;
+        width: 100%;
+        min-height: 380px;
+        margin-bottom: 40px;
+    }
+
+    .ourmissioncard h3 {
+        font-size: 21.5px;
+        color: white;
+        font-weight: 800;
+        line-height: 2.05rem;
+        margin-bottom: 10px;
+    }
+
+    .ourmissioncard p {
+        font-size: 16px;
+        color: white;
+        font-weight: 300;
+        line-height: 1.5rem;
+        margin-top: 17.5px;
+    }
+
+    .industrynews {
+        padding: 10px;
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .industrynews-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12.5px 12.5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .industrynews .industry-left {
+        display: none;
+    }
+
+    .industrynews .industrynewsbottombutton {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+        display: inline;
+    }
+
+    .industrynews .industrynewsbottombutton a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .industrynewscolumn {
+        float: left;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 45px;
+    }
+
+    .industrynewscontainer img {
+        height: 300px;
+        width: 100%;
+        display: block;
+        transition: 0.5s ease;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        object-fit: cover;
+    }
+
+    .industrynewscontainer {
+        height: 650px;
+        width: 100%;
+        border: 1px solid #ececec;
+        border-radius: 15px;
+    }
+
+    .industrynews h1 {
+        font-size: 28px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .industrynewscontent .category {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: black;
+        line-height: 1.9rem;
+        margin-bottom: 5px;
+    }
+
+    .industrynewscontent .date {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #03c04a;
+        line-height: 1.5rem;
+    }
+
+    .industrynewscontent .title {
+        font-size: 15px;
+        color: black;
+        font-weight: 700;
+        line-height: 1.4rem;
+        transition: 0.5s;
+    }
+
+    .industrynewscontent p {
+        color: #777777;
+        font-size: 14.5px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 15px 0px;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 15px;
+        min-height: 165vh;
+        align-items: center;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+        margin-top: 40px;
+    }
+
+    .footercolumn15 {
+        width: 100%;
+        float: left;
+        padding: 15px;
+    }
+
+    .footercolumn30 {
+        width: 100%;
+        float: left;
+        padding: 15px;
+        margin-right: 65px;
+        margin-bottom: 60px;
+    }
+
+    .copyright {
+        height: 90px;
+        background: #03c04a;
+        width: 100%;
+        align-items: center;
+    }
+
+    .copyrightcontainer {
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .copyright-left {
+        float: left; 
+        text-align: center;
+        width: 100%;
+    }
+
+    .copyright-right {
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .copyright-left p {
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .copyright-right p {
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .copyright-left a {
+        text-decoration: none;
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    header img {
+        margin-top: 0px;
+        width: 160px;
+        height: 100px;
+        margin-left: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    header .navigation {
+        position: relative;
+        line-height: 75px;
+        margin-right: 60px;
+        display: none;
+    }
+
+    header .bar {
+        background: #03c04a;
+        height: 35px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 82.5%;
+        border-bottom-left-radius: 75px;
+        display: none;
+    }
+
+    header {
+        z-index: 999;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+        transition: 0.6s;
+        height: 115px;
+    }
+
+    .hamburger {
+        display: block;
+        margin-right: 20px;
+    }
+
+    #hamburger {
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        background: linear-gradient( to right,#03c04a, #00FF00);
+        border: none;
+        margin-top: 15px;
+        font-size: 20px;
+        align-items: center;
+        place-items: center;
+        color: white;
+        font-weight: 900;
+        display: grid;
+    }
+
+    #close {
+        display: none;
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        background: linear-gradient( to right,#03c04a, #00FF00);
+        border: none;
+        margin-top: 15px;
+        font-size: 20px;
+        align-items: center;
+        place-items: center;
+        color: white;
+        font-weight: 900;
+    }
+
+    #mobile-menu {
+        position: fixed;
+        display: none;
+        align-items: center;
+        text-align: left;
+        width: 100%;
+        z-index: 99999;
+        background: #ececec;
+        min-height: 70vh;
+        padding: 40px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .mobile-menu a {
+        font-size: 14.5px;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+
+    .mobile-menu i {
+        font-size: 11.5px;
+        margin-left: 5px;
+    }
+
+    .mobile-menu .mobile-social a {
+        color: black;
+        font-size: 18px;
+    }
+
+    .mobile-menu .mobile-social i {
+        font-size: 18px;
+        margin-right: 10px;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+}
+
+/*Responsive Galaxy Fold*/
+
+@media only screen and (min-width:279.5px) and (max-width:280.5px) and (min-height:652.5px) and (max-height:653.5px) {
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Geologica", sans-serif;
+        scroll-behavior: smooth;
+    }
+
+    .welcome {
+        right: 0;
+        width: 100%;
+        min-height: 90vh;
+        position: relative;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #111;
+        color: white;
+        z-index: 2;
+    }
+
+    .welcome video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.6;
+    }
+    
+    .welcomeoverlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: 0.4;
+        mix-blend-mode: overlay;
+    }
+    
+    .welcometext {
+        position: relative;
+        z-index: 10;
+        align-items: center;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,0);
+        padding: 16px;
+    }
+    
+    .welcometext h1 {
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: 500;
+        line-height: 2.15rem;
+        margin-bottom: 15px;
+        letter-spacing: 0.35px;
+    }
+    
+    .welcometext p {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-weight: 100;
+    }
+    
+    .welcometext a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    
+    .welcome .scrolldown {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+        text-align: center;
+    }
+    
+    .welcome .scrolldown p {
+        font-size: 14.5px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    .welcome .scrolldown i {
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+    }
+    
+    .whoweare {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .oursolutions {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .careers {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .whoweare-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12.5px 15px;
+    }
+
+    .oursolutions-container {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .careers-container {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .whoweare-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .oursolutions-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .careers-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .whoweare-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .oursoltions-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .careers-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+    
+    .whoweare-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+
+    .oursoltions-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+
+    .careers-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+    
+    .whoweare-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .oursolutions-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .careers-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .whoweare-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .oursolutions-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .careers-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .whoweare-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .oursolutions-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .careers-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .whoweare-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+
+    .oursolutions-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+
+    .careers-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+    
+    .whoweare-content .space {
+        margin-top: 40px;
+    }
+
+    .oursolutions-content .space {
+        margin-top: 40px;
+    }
+
+    .careers-content .space {
+        margin-top: 40px;
+    }
+    
+    .whoweare-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .oursolutions-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .careers-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .stats-section {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        background: #ececec;
+        min-height: 275.5vh;
+        align-items: center;
+    }
+
+    .stats-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px 5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .stats-container h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 7.5px;
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+
+    .stats-container h2 {
+        font-size: 28px;
+        margin-bottom: 13.5px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+    }
+
+    .stats-rows {
+        margin-bottom: 20px;
+    }
+
+    .stats-columns {
+        float: left;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .stats-columns img {
+        width: 220px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        transition: 0.3s;
+    }
+
+    .stats-columns h3 {
+        font-size: 21.5px;
+        color: black;
+        font-weight: 900;
+        margin-bottom: 12.5px;
+        margin-top: 7.5px;
+    }
+
+    .stats-columns p {
+        font-size: 14.5px;
+        color: #111;
+        margin-bottom: 7.5px;
+        padding: 0px 21px;
+    }
+
+    .stats-container a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .oursolutions-content b {
+        font-weight: 600;
+    }
+
+    .ourmissionsection {
+        width: 100%;
+        padding: 10px;
+        background: #ececec;
+        min-height: 90vh;
+        align-items: center;
+    }
+
+    .ourmissioncolumn-twenty {
+        float: left;
+        width: 100%;
+        margin-top: 25px;
+        text-align: center;
+        margin-bottom: 27.5px;
+    }
+
+    .ourmissioncolumn-twenty h1 {
+        display: none;
+    }
+
+    .ourmissioncolumn-twenty h2 {
+        font-size: 28px;
+        margin-top: 60px;
+        font-weight: 900;
+        text-align: center;
+        display: inline;
+        background: -webkit-linear-gradient(#000000 ,#03c04a );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .ourmissioncolumn-forty {
+        float: left;
+        width: 100%;
+        margin-top: 0px;
+        padding: 0px 12.5px;
+    }
+
+    .ourmissioncard {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 50px 25px;
+        border-radius: 40px;
+        background: #03c04a;
+        width: 100%;
+        min-height: 470px;
+        margin-bottom: 40px;
+    }
+
+    .ourmissioncard h3 {
+        font-size: 21.5px;
+        color: white;
+        font-weight: 800;
+        line-height: 2.05rem;
+        margin-bottom: 10px;
+    }
+
+    .ourmissioncard p {
+        font-size: 16px;
+        color: white;
+        font-weight: 300;
+        line-height: 1.5rem;
+        margin-top: 17.5px;
+    }
+
+    .industrynews {
+        padding: 10px;
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .industrynews-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12.5px 12.5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .industrynews .industry-left {
+        display: none;
+    }
+
+    .industrynews .industrynewsbottombutton {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+        display: inline;
+    }
+
+    .industrynews .industrynewsbottombutton a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .industrynewscolumn {
+        float: left;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 45px;
+    }
+
+    .industrynewscontainer img {
+        height: 300px;
+        width: 100%;
+        display: block;
+        transition: 0.5s ease;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        object-fit: cover;
+    }
+
+    .industrynewscontainer {
+        height: 650px;
+        width: 100%;
+        border: 1px solid #ececec;
+        border-radius: 15px;
+    }
+
+    .industrynews h1 {
+        font-size: 28px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .industrynewscontent .category {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: black;
+        line-height: 1.9rem;
+        margin-bottom: 5px;
+    }
+
+    .industrynewscontent .date {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #03c04a;
+        line-height: 1.5rem;
+    }
+
+    .industrynewscontent .title {
+        font-size: 15px;
+        color: black;
+        font-weight: 700;
+        line-height: 1.4rem;
+        transition: 0.5s;
+    }
+
+    .industrynewscontent p {
+        color: #777777;
+        font-size: 14.5px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 15px 0px;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 15px;
+        min-height: 205vh;
+        align-items: center;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+        margin-top: 40px;
+    }
+
+    .footercolumn15 {
+        width: 100%;
+        float: left;
+        padding: 15px;
+    }
+
+    .footercolumn30 {
+        width: 100%;
+        float: left;
+        padding: 15px;
+        margin-right: 65px;
+        margin-bottom: 60px;
+    }
+
+    .copyright {
+        height: 90px;
+        background: #03c04a;
+        width: 100%;
+        align-items: center;
+    }
+
+    .copyrightcontainer {
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .copyright-left {
+        float: left; 
+        text-align: center;
+        width: 100%;
+    }
+
+    .copyright-right {
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .copyright-left p {
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .copyright-right p {
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .copyright-left a {
+        text-decoration: none;
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    header img {
+        margin-top: 0px;
+        width: 160px;
+        height: 100px;
+        margin-left: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    header .navigation {
+        position: relative;
+        line-height: 75px;
+        margin-right: 60px;
+        display: none;
+    }
+
+    header .bar {
+        background: #03c04a;
+        height: 35px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 82.5%;
+        border-bottom-left-radius: 75px;
+        display: none;
+    }
+
+    header {
+        z-index: 999;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+        transition: 0.6s;
+        height: 115px;
+    }
+
+    .hamburger {
+        display: block;
+        margin-right: 20px;
+    }
+
+    #hamburger {
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        background: linear-gradient( to right,#03c04a, #00FF00);
+        border: none;
+        margin-top: 15px;
+        font-size: 20px;
+        align-items: center;
+        place-items: center;
+        color: white;
+        font-weight: 900;
+        display: grid;
+    }
+
+    #close {
+        display: none;
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        background: linear-gradient( to right,#03c04a, #00FF00);
+        border: none;
+        margin-top: 15px;
+        font-size: 20px;
+        align-items: center;
+        place-items: center;
+        color: white;
+        font-weight: 900;
+    }
+
+    #mobile-menu {
+        position: fixed;
+        display: none;
+        align-items: center;
+        text-align: left;
+        width: 100%;
+        z-index: 99999;
+        background: #ececec;
+        min-height: 70vh;
+        padding: 40px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .mobile-menu a {
+        font-size: 14.5px;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+
+    .mobile-menu i {
+        font-size: 11.5px;
+        margin-left: 5px;
+    }
+
+    .mobile-menu .mobile-social a {
+        color: black;
+        font-size: 18px;
+    }
+
+    .mobile-menu .mobile-social i {
+        font-size: 18px;
+        margin-right: 10px;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+}
+
+/*Responsive My Phone*/
+
+@media only screen and (min-width:383.5px) and (max-width:384.5px) and (min-height:723.5px) and (max-height:724.5px) {
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Geologica", sans-serif;
+        scroll-behavior: smooth;
+    }
+
+    .welcome {
+        right: 0;
+        width: 100%;
+        min-height: 90vh;
+        position: relative;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #111;
+        color: white;
+        z-index: 2;
+    }
+
+    .welcome video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.6;
+    }
+    
+    .welcomeoverlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: 0.4;
+        mix-blend-mode: overlay;
+    }
+    
+    .welcometext {
+        position: relative;
+        z-index: 10;
+        align-items: center;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,0);
+        padding: 16px;
+    }
+    
+    .welcometext h1 {
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: 500;
+        line-height: 2.15rem;
+        margin-bottom: 15px;
+        letter-spacing: 0.35px;
+    }
+    
+    .welcometext p {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-weight: 100;
+    }
+    
+    .welcometext a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    
+    .welcome .scrolldown {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+        text-align: center;
+    }
+    
+    .welcome .scrolldown p {
+        font-size: 14.5px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    .welcome .scrolldown i {
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+    }
+    
+    .whoweare {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .oursolutions {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .careers {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .whoweare-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12.5px 15px;
+    }
+
+    .oursolutions-container {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .careers-container {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .whoweare-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .oursolutions-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .careers-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .whoweare-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .oursoltions-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .careers-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+    
+    .whoweare-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+
+    .oursoltions-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+
+    .careers-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+    
+    .whoweare-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .oursolutions-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .careers-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .whoweare-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .oursolutions-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .careers-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .whoweare-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .oursolutions-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .careers-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .whoweare-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+
+    .oursolutions-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+
+    .careers-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+    
+    .whoweare-content .space {
+        margin-top: 40px;
+    }
+
+    .oursolutions-content .space {
+        margin-top: 40px;
+    }
+
+    .careers-content .space {
+        margin-top: 40px;
+    }
+    
+    .whoweare-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .oursolutions-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .careers-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .stats-section {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        background: #ececec;
+        min-height: 215.5vh;
+        align-items: center;
+    }
+
+    .stats-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px 5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .stats-container h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 7.5px;
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+
+    .stats-container h2 {
+        font-size: 28px;
+        margin-bottom: 13.5px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+    }
+
+    .stats-rows {
+        margin-bottom: 20px;
+    }
+
+    .stats-columns {
+        float: left;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .stats-columns img {
+        width: 220px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        transition: 0.3s;
+    }
+
+    .stats-columns h3 {
+        font-size: 21.5px;
+        color: black;
+        font-weight: 900;
+        margin-bottom: 12.5px;
+        margin-top: 7.5px;
+    }
+
+    .stats-columns p {
+        font-size: 14.5px;
+        color: #111;
+        margin-bottom: 7.5px;
+        padding: 0px 21px;
+    }
+
+    .stats-container a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .oursolutions-content b {
+        font-weight: 600;
+    }
+
+    .ourmissionsection {
+        width: 100%;
+        padding: 10px;
+        background: #ececec;
+        min-height: 90vh;
+        align-items: center;
+    }
+
+    .ourmissioncolumn-twenty {
+        float: left;
+        width: 100%;
+        margin-top: 25px;
+        text-align: center;
+        margin-bottom: 27.5px;
+    }
+
+    .ourmissioncolumn-twenty h1 {
+        display: none;
+    }
+
+    .ourmissioncolumn-twenty h2 {
+        font-size: 28px;
+        margin-top: 60px;
+        font-weight: 900;
+        text-align: center;
+        display: inline;
+        background: -webkit-linear-gradient(#000000 ,#03c04a );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .ourmissioncolumn-forty {
+        float: left;
+        width: 100%;
+        margin-top: 0px;
+        padding: 0px 12.5px;
+    }
+
+    .ourmissioncard {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 50px 38px;
+        border-radius: 40px;
+        background: #03c04a;
+        width: 100%;
+        min-height: 340px;
+        margin-bottom: 40px;
+    }
+
+    .ourmissioncard h3 {
+        font-size: 21.5px;
+        color: white;
+        font-weight: 800;
+        line-height: 2.05rem;
+        margin-bottom: 10px;
+    }
+
+    .ourmissioncard p {
+        font-size: 16px;
+        color: white;
+        font-weight: 300;
+        line-height: 1.5rem;
+        margin-top: 17.5px;
+    }
+
+    .industrynews {
+        padding: 10px;
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .industrynews-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12.5px 12.5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .industrynews .industry-left {
+        display: none;
+    }
+
+    .industrynews .industrynewsbottombutton {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+        display: inline;
+    }
+
+    .industrynews .industrynewsbottombutton a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .industrynewscolumn {
+        float: left;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 45px;
+    }
+
+    .industrynewscontainer img {
+        height: 300px;
+        width: 100%;
+        display: block;
+        transition: 0.5s ease;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        object-fit: cover;
+    }
+
+    .industrynewscontainer {
+        height: 650px;
+        width: 100%;
+        border: 1px solid #ececec;
+        border-radius: 15px;
+    }
+
+    .industrynews h1 {
+        font-size: 28px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .industrynewscontent .category {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: black;
+        line-height: 1.9rem;
+        margin-bottom: 5px;
+    }
+
+    .industrynewscontent .date {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #03c04a;
+        line-height: 1.5rem;
+    }
+
+    .industrynewscontent .title {
+        font-size: 15px;
+        color: black;
+        font-weight: 700;
+        line-height: 1.4rem;
+        transition: 0.5s;
+    }
+
+    .industrynewscontent p {
+        color: #777777;
+        font-size: 14.5px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 15px 0px;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 15px;
+        min-height: 185vh;
+        align-items: center;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+        margin-top: 40px;
+    }
+
+    .footercolumn15 {
+        width: 100%;
+        float: left;
+        padding: 15px;
+    }
+
+    .footercolumn30 {
+        width: 100%;
+        float: left;
+        padding: 15px;
+        margin-right: 65px;
+        margin-bottom: 60px;
+    }
+
+    .copyright {
+        height: 90px;
+        background: #03c04a;
+        width: 100%;
+        align-items: center;
+    }
+
+    .copyrightcontainer {
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .copyright-left {
+        float: left; 
+        text-align: center;
+        width: 100%;
+    }
+
+    .copyright-right {
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .copyright-left p {
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .copyright-right p {
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .copyright-left a {
+        text-decoration: none;
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    header img {
+        margin-top: 0px;
+        width: 160px;
+        height: 100px;
+        margin-left: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    header .navigation {
+        position: relative;
+        line-height: 75px;
+        margin-right: 60px;
+        display: none;
+    }
+
+    header .bar {
+        background: #03c04a;
+        height: 35px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 82.5%;
+        border-bottom-left-radius: 75px;
+        display: none;
+    }
+
+    header {
+        z-index: 999;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+        transition: 0.6s;
+        height: 115px;
+    }
+
+    .hamburger {
+        display: block;
+        margin-right: 20px;
+    }
+
+    #hamburger {
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        background: linear-gradient( to right,#03c04a, #00FF00);
+        border: none;
+        margin-top: 15px;
+        font-size: 20px;
+        align-items: center;
+        place-items: center;
+        color: white;
+        font-weight: 900;
+        display: grid;
+    }
+
+    #close {
+        display: none;
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        background: linear-gradient( to right,#03c04a, #00FF00);
+        border: none;
+        margin-top: 15px;
+        font-size: 20px;
+        align-items: center;
+        place-items: center;
+        color: white;
+        font-weight: 900;
+    }
+
+    #mobile-menu {
+        position: fixed;
+        display: none;
+        align-items: center;
+        text-align: left;
+        width: 100%;
+        z-index: 99999;
+        background: #ececec;
+        min-height: 70vh;
+        padding: 40px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .mobile-menu a {
+        font-size: 14.5px;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+
+    .mobile-menu i {
+        font-size: 11.5px;
+        margin-left: 5px;
+    }
+
+    .mobile-menu .mobile-social a {
+        color: black;
+        font-size: 18px;
+    }
+
+    .mobile-menu .mobile-social i {
+        font-size: 18px;
+        margin-right: 10px;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+}
+
+/*Responsive iPhone 5/SE*/
+
+@media only screen and (min-width:319.5px) and (max-width:320.5px) and (min-height:567.5px) and (max-height:568.5px) {
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Geologica", sans-serif;
+        scroll-behavior: smooth;
+    }
+
+    .welcome {
+        right: 0;
+        width: 100%;
+        min-height: 90vh;
+        position: relative;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #111;
+        color: white;
+        z-index: 2;
+    }
+
+    .welcome video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.6;
+    }
+    
+    .welcomeoverlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: 0.4;
+        mix-blend-mode: overlay;
+    }
+    
+    .welcometext {
+        position: relative;
+        z-index: 10;
+        align-items: center;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,0);
+        padding: 16px;
+    }
+    
+    .welcometext h1 {
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: 500;
+        line-height: 2.15rem;
+        margin-bottom: 15px;
+        letter-spacing: 0.35px;
+    }
+    
+    .welcometext p {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-weight: 100;
+    }
+    
+    .welcometext a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    
+    .welcome .scrolldown {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+        text-align: center;
+    }
+    
+    .welcome .scrolldown p {
+        font-size: 14.5px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    .welcome .scrolldown i {
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+    }
+    
+    .whoweare {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .oursolutions {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .careers {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .whoweare-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12.5px 15px;
+    }
+
+    .oursolutions-container {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .careers-container {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .whoweare-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .oursolutions-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .careers-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .whoweare-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .oursoltions-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .careers-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+    
+    .whoweare-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+
+    .oursoltions-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+
+    .careers-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+    
+    .whoweare-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .oursolutions-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .careers-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .whoweare-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .oursolutions-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .careers-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .whoweare-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .oursolutions-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .careers-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .whoweare-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+
+    .oursolutions-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+
+    .careers-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+    
+    .whoweare-content .space {
+        margin-top: 40px;
+    }
+
+    .oursolutions-content .space {
+        margin-top: 40px;
+    }
+
+    .careers-content .space {
+        margin-top: 40px;
+    }
+    
+    .whoweare-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .oursolutions-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .careers-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .stats-section {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        background: #ececec;
+        min-height: 235.5vh;
+        align-items: center;
+    }
+
+    .stats-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px 5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .stats-container h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 7.5px;
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+
+    .stats-container h2 {
+        font-size: 28px;
+        margin-bottom: 13.5px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+    }
+
+    .stats-rows {
+        margin-bottom: 20px;
+    }
+
+    .stats-columns {
+        float: left;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .stats-columns img {
+        width: 220px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        transition: 0.3s;
+    }
+
+    .stats-columns h3 {
+        font-size: 21.5px;
+        color: black;
+        font-weight: 900;
+        margin-bottom: 12.5px;
+        margin-top: 7.5px;
+    }
+
+    .stats-columns p {
+        font-size: 14.5px;
+        color: #111;
+        margin-bottom: 7.5px;
+        padding: 0px 21px;
+    }
+
+    .stats-container a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .oursolutions-content b {
+        font-weight: 600;
+    }
+
+    .ourmissionsection {
+        width: 100%;
+        padding: 10px;
+        background: #ececec;
+        min-height: 90vh;
+        align-items: center;
+    }
+
+    .ourmissioncolumn-twenty {
+        float: left;
+        width: 100%;
+        margin-top: 25px;
+        text-align: center;
+        margin-bottom: 27.5px;
+    }
+
+    .ourmissioncolumn-twenty h1 {
+        display: none;
+    }
+
+    .ourmissioncolumn-twenty h2 {
+        font-size: 28px;
+        margin-top: 60px;
+        font-weight: 900;
+        text-align: center;
+        display: inline;
+        background: -webkit-linear-gradient(#000000 ,#03c04a );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .ourmissioncolumn-forty {
+        float: left;
+        width: 100%;
+        margin-top: 0px;
+        padding: 0px 12.5px;
+    }
+
+    .ourmissioncard {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 50px 38px;
+        border-radius: 40px;
+        background: #03c04a;
+        width: 100%;
+        min-height: 340px;
+        margin-bottom: 40px;
+    }
+
+    .ourmissioncard h3 {
+        font-size: 21.5px;
+        color: white;
+        font-weight: 800;
+        line-height: 2.05rem;
+        margin-bottom: 10px;
+    }
+
+    .ourmissioncard p {
+        font-size: 16px;
+        color: white;
+        font-weight: 300;
+        line-height: 1.5rem;
+        margin-top: 17.5px;
+    }
+
+    .industrynews {
+        padding: 10px;
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .industrynews-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12.5px 12.5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .industrynews .industry-left {
+        display: none;
+    }
+
+    .industrynews .industrynewsbottombutton {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+        display: inline;
+    }
+
+    .industrynews .industrynewsbottombutton a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .industrynewscolumn {
+        float: left;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 45px;
+    }
+
+    .industrynewscontainer img {
+        height: 300px;
+        width: 100%;
+        display: block;
+        transition: 0.5s ease;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        object-fit: cover;
+    }
+
+    .industrynewscontainer {
+        height: 650px;
+        width: 100%;
+        border: 1px solid #ececec;
+        border-radius: 15px;
+    }
+
+    .industrynews h1 {
+        font-size: 28px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .industrynewscontent .category {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: black;
+        line-height: 1.9rem;
+        margin-bottom: 5px;
+    }
+
+    .industrynewscontent .date {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #03c04a;
+        line-height: 1.5rem;
+    }
+
+    .industrynewscontent .title {
+        font-size: 15px;
+        color: black;
+        font-weight: 700;
+        line-height: 1.4rem;
+        transition: 0.5s;
+    }
+
+    .industrynewscontent p {
+        color: #777777;
+        font-size: 14.5px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 15px 0px;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 15px;
+        min-height: 185vh;
+        align-items: center;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+        margin-top: 40px;
+    }
+
+    .footercolumn15 {
+        width: 100%;
+        float: left;
+        padding: 15px;
+    }
+
+    .footercolumn30 {
+        width: 100%;
+        float: left;
+        padding: 15px;
+        margin-right: 65px;
+        margin-bottom: 60px;
+    }
+
+    .copyright {
+        height: 90px;
+        background: #03c04a;
+        width: 100%;
+        align-items: center;
+    }
+
+    .copyrightcontainer {
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .copyright-left {
+        float: left; 
+        text-align: center;
+        width: 100%;
+    }
+
+    .copyright-right {
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .copyright-left p {
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .copyright-right p {
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .copyright-left a {
+        text-decoration: none;
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    header img {
+        margin-top: 0px;
+        width: 160px;
+        height: 100px;
+        margin-left: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    header .navigation {
+        position: relative;
+        line-height: 75px;
+        margin-right: 60px;
+        display: none;
+    }
+
+    header .bar {
+        background: #03c04a;
+        height: 35px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 82.5%;
+        border-bottom-left-radius: 75px;
+        display: none;
+    }
+
+    header {
+        z-index: 999;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+        transition: 0.6s;
+        height: 115px;
+    }
+
+    .hamburger {
+        display: block;
+        margin-right: 20px;
+    }
+
+    #hamburger {
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        background: linear-gradient( to right,#03c04a, #00FF00);
+        border: none;
+        margin-top: 15px;
+        font-size: 20px;
+        align-items: center;
+        place-items: center;
+        color: white;
+        font-weight: 900;
+        display: grid;
+    }
+
+    #close {
+        display: none;
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        background: linear-gradient( to right,#03c04a, #00FF00);
+        border: none;
+        margin-top: 15px;
+        font-size: 20px;
+        align-items: center;
+        place-items: center;
+        color: white;
+        font-weight: 900;
+    }
+
+    #mobile-menu {
+        position: fixed;
+        display: none;
+        align-items: center;
+        text-align: left;
+        width: 100%;
+        z-index: 99999;
+        background: #ececec;
+        min-height: 70vh;
+        padding: 40px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .mobile-menu a {
+        font-size: 14.5px;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+
+    .mobile-menu i {
+        font-size: 11.5px;
+        margin-left: 5px;
+    }
+
+    .mobile-menu .mobile-social a {
+        color: black;
+        font-size: 18px;
+    }
+
+    .mobile-menu .mobile-social i {
+        font-size: 18px;
+        margin-right: 10px;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+}
+
+/*Reponsive Samsung A33*/
+
+@media only screen and (min-width:383.5px) and (max-width:384.5px) and (min-height:720.5px) and (max-height:721.5px) {
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Geologica", sans-serif;
+        scroll-behavior: smooth;
+    }
+
+    .welcome {
+        right: 0;
+        width: 100%;
+        min-height: 90vh;
+        position: relative;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #111;
+        color: white;
+        z-index: 2;
+    }
+
+    .welcome video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.6;
+    }
+    
+    .welcomeoverlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: 0.4;
+        mix-blend-mode: overlay;
+    }
+    
+    .welcometext {
+        position: relative;
+        z-index: 10;
+        align-items: center;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,0);
+        padding: 16px;
+    }
+    
+    .welcometext h1 {
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: 500;
+        line-height: 2.15rem;
+        margin-bottom: 15px;
+        letter-spacing: 0.35px;
+    }
+    
+    .welcometext p {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-weight: 100;
+    }
+    
+    .welcometext a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    
+    .welcome .scrolldown {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+        text-align: center;
+    }
+    
+    .welcome .scrolldown p {
+        font-size: 14.5px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    .welcome .scrolldown i {
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+    }
+    
+    .whoweare {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .oursolutions {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .careers {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .whoweare-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12.5px 15px;
+    }
+
+    .oursolutions-container {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .careers-container {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .whoweare-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .oursolutions-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .careers-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .whoweare-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .oursoltions-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .careers-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+    
+    .whoweare-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+
+    .oursoltions-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+
+    .careers-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+    
+    .whoweare-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .oursolutions-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .careers-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .whoweare-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .oursolutions-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .careers-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .whoweare-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .oursolutions-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .careers-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .whoweare-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+
+    .oursolutions-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+
+    .careers-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+    
+    .whoweare-content .space {
+        margin-top: 40px;
+    }
+
+    .oursolutions-content .space {
+        margin-top: 40px;
+    }
+
+    .careers-content .space {
+        margin-top: 40px;
+    }
+    
+    .whoweare-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .oursolutions-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .careers-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .stats-section {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        background: #ececec;
+        min-height: 235.5vh;
+        align-items: center;
+    }
+
+    .stats-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px 5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .stats-container h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 7.5px;
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+
+    .stats-container h2 {
+        font-size: 28px;
+        margin-bottom: 13.5px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+    }
+
+    .stats-rows {
+        margin-bottom: 20px;
+    }
+
+    .stats-columns {
+        float: left;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .stats-columns img {
+        width: 220px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        transition: 0.3s;
+    }
+
+    .stats-columns h3 {
+        font-size: 21.5px;
+        color: black;
+        font-weight: 900;
+        margin-bottom: 12.5px;
+        margin-top: 7.5px;
+    }
+
+    .stats-columns p {
+        font-size: 14.5px;
+        color: #111;
+        margin-bottom: 7.5px;
+        padding: 0px 21px;
+    }
+
+    .stats-container a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .oursolutions-content b {
+        font-weight: 600;
+    }
+
+    .ourmissionsection {
+        width: 100%;
+        padding: 10px;
+        background: #ececec;
+        min-height: 90vh;
+        align-items: center;
+    }
+
+    .ourmissioncolumn-twenty {
+        float: left;
+        width: 100%;
+        margin-top: 25px;
+        text-align: center;
+        margin-bottom: 27.5px;
+    }
+
+    .ourmissioncolumn-twenty h1 {
+        display: none;
+    }
+
+    .ourmissioncolumn-twenty h2 {
+        font-size: 28px;
+        margin-top: 60px;
+        font-weight: 900;
+        text-align: center;
+        display: inline;
+        background: -webkit-linear-gradient(#000000 ,#03c04a );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .ourmissioncolumn-forty {
+        float: left;
+        width: 100%;
+        margin-top: 0px;
+        padding: 0px 12.5px;
+    }
+
+    .ourmissioncard {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 50px 38px;
+        border-radius: 40px;
+        background: #03c04a;
+        width: 100%;
+        min-height: 340px;
+        margin-bottom: 40px;
+    }
+
+    .ourmissioncard h3 {
+        font-size: 21.5px;
+        color: white;
+        font-weight: 800;
+        line-height: 2.05rem;
+        margin-bottom: 10px;
+    }
+
+    .ourmissioncard p {
+        font-size: 16px;
+        color: white;
+        font-weight: 300;
+        line-height: 1.5rem;
+        margin-top: 17.5px;
+    }
+
+    .industrynews {
+        padding: 10px;
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .industrynews-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12.5px 12.5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .industrynews .industry-left {
+        display: none;
+    }
+
+    .industrynews .industrynewsbottombutton {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+        display: inline;
+    }
+
+    .industrynews .industrynewsbottombutton a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .industrynewscolumn {
+        float: left;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 45px;
+    }
+
+    .industrynewscontainer img {
+        height: 300px;
+        width: 100%;
+        display: block;
+        transition: 0.5s ease;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        object-fit: cover;
+    }
+
+    .industrynewscontainer {
+        height: 650px;
+        width: 100%;
+        border: 1px solid #ececec;
+        border-radius: 15px;
+    }
+
+    .industrynews h1 {
+        font-size: 28px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .industrynewscontent .category {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: black;
+        line-height: 1.9rem;
+        margin-bottom: 5px;
+    }
+
+    .industrynewscontent .date {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #03c04a;
+        line-height: 1.5rem;
+    }
+
+    .industrynewscontent .title {
+        font-size: 15px;
+        color: black;
+        font-weight: 700;
+        line-height: 1.4rem;
+        transition: 0.5s;
+    }
+
+    .industrynewscontent p {
+        color: #777777;
+        font-size: 14.5px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 15px 0px;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 15px;
+        min-height: 185vh;
+        align-items: center;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+        margin-top: 40px;
+    }
+
+    .footercolumn15 {
+        width: 100%;
+        float: left;
+        padding: 15px;
+    }
+
+    .footercolumn30 {
+        width: 100%;
+        float: left;
+        padding: 15px;
+        margin-right: 65px;
+        margin-bottom: 60px;
+    }
+
+    .copyright {
+        height: 90px;
+        background: #03c04a;
+        width: 100%;
+        align-items: center;
+    }
+
+    .copyrightcontainer {
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .copyright-left {
+        float: left; 
+        text-align: center;
+        width: 100%;
+    }
+
+    .copyright-right {
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .copyright-left p {
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .copyright-right p {
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .copyright-left a {
+        text-decoration: none;
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    header img {
+        margin-top: 0px;
+        width: 160px;
+        height: 100px;
+        margin-left: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    header .navigation {
+        position: relative;
+        line-height: 75px;
+        margin-right: 60px;
+        display: none;
+    }
+
+    header .bar {
+        background: #03c04a;
+        height: 35px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 82.5%;
+        border-bottom-left-radius: 75px;
+        display: none;
+    }
+
+    header {
+        z-index: 999;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+        transition: 0.6s;
+        height: 115px;
+    }
+
+    .hamburger {
+        display: block;
+        margin-right: 20px;
+    }
+
+    #hamburger {
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        background: linear-gradient( to right,#03c04a, #00FF00);
+        border: none;
+        margin-top: 15px;
+        font-size: 20px;
+        align-items: center;
+        place-items: center;
+        color: white;
+        font-weight: 900;
+        display: grid;
+    }
+
+    #close {
+        display: none;
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        background: linear-gradient( to right,#03c04a, #00FF00);
+        border: none;
+        margin-top: 15px;
+        font-size: 20px;
+        align-items: center;
+        place-items: center;
+        color: white;
+        font-weight: 900;
+    }
+
+    #mobile-menu {
+        position: fixed;
+        display: none;
+        align-items: center;
+        text-align: left;
+        width: 100%;
+        z-index: 99999;
+        background: #ececec;
+        min-height: 70vh;
+        padding: 40px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .mobile-menu a {
+        font-size: 14.5px;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+
+    .mobile-menu i {
+        font-size: 11.5px;
+        margin-left: 5px;
+    }
+
+    .mobile-menu .mobile-social a {
+        color: black;
+        font-size: 18px;
+    }
+
+    .mobile-menu .mobile-social i {
+        font-size: 18px;
+        margin-right: 10px;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+}
+
+/*Responsive iPhone XR*/
+
+@media only screen and (min-width:413.5px) and (max-width:414.5px) and (min-height:711.5px) and (max-height:712.5px) {
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Geologica", sans-serif;
+        scroll-behavior: smooth;
+    }
+
+    .welcome {
+        right: 0;
+        width: 100%;
+        min-height: 90vh;
+        position: relative;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #111;
+        color: white;
+        z-index: 2;
+    }
+
+    .welcome video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.6;
+    }
+    
+    .welcomeoverlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: 0.4;
+        mix-blend-mode: overlay;
+    }
+    
+    .welcometext {
+        position: relative;
+        z-index: 10;
+        align-items: center;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,0);
+        padding: 16px;
+    }
+    
+    .welcometext h1 {
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: 500;
+        line-height: 2.15rem;
+        margin-bottom: 15px;
+        letter-spacing: 0.35px;
+    }
+    
+    .welcometext p {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-weight: 100;
+    }
+    
+    .welcometext a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    
+    .welcome .scrolldown {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+        text-align: center;
+    }
+    
+    .welcome .scrolldown p {
+        font-size: 14.5px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    .welcome .scrolldown i {
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+    }
+    
+    .whoweare {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .oursolutions {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .careers {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .whoweare-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12.5px 15px;
+    }
+
+    .oursolutions-container {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .careers-container {
+        padding: 10px;
+        min-height: 50vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .whoweare-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .oursolutions-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .careers-section {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .whoweare-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .oursoltions-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .careers-image {
+        overflow: hidden;
+        border-radius: 12.5px;
+        margin-right: 0px;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+    
+    .whoweare-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+
+    .oursoltions-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+
+    .careers-image img {
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+    
+    .whoweare-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .oursolutions-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .careers-content {
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .whoweare-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .oursolutions-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .careers-content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .whoweare-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .oursolutions-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .careers-content h2 {
+        font-size: 21px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .whoweare-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+
+    .oursolutions-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+
+    .careers-content p {
+        font-size: 14.5px;
+        font-weight: 300;
+        color: black;
+        line-height: 1.75em;
+        margin-bottom: 22.5px;
+        text-align: left;
+    }
+    
+    .whoweare-content .space {
+        margin-top: 40px;
+    }
+
+    .oursolutions-content .space {
+        margin-top: 40px;
+    }
+
+    .careers-content .space {
+        margin-top: 40px;
+    }
+    
+    .whoweare-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .oursolutions-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .careers-content a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .stats-section {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        background: #ececec;
+        min-height: 235.5vh;
+        align-items: center;
+    }
+
+    .stats-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px 5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .stats-container h4 {
+        font-size: 15px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 7.5px;
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+
+    .stats-container h2 {
+        font-size: 28px;
+        margin-bottom: 13.5px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+    }
+
+    .stats-rows {
+        margin-bottom: 20px;
+    }
+
+    .stats-columns {
+        float: left;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .stats-columns img {
+        width: 220px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        transition: 0.3s;
+    }
+
+    .stats-columns h3 {
+        font-size: 21.5px;
+        color: black;
+        font-weight: 900;
+        margin-bottom: 12.5px;
+        margin-top: 7.5px;
+    }
+
+    .stats-columns p {
+        font-size: 14.5px;
+        color: #111;
+        margin-bottom: 7.5px;
+        padding: 0px 21px;
+    }
+
+    .stats-container a {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .oursolutions-content b {
+        font-weight: 600;
+    }
+
+    .ourmissionsection {
+        width: 100%;
+        padding: 10px;
+        background: #ececec;
+        min-height: 90vh;
+        align-items: center;
+    }
+
+    .ourmissioncolumn-twenty {
+        float: left;
+        width: 100%;
+        margin-top: 25px;
+        text-align: center;
+        margin-bottom: 27.5px;
+    }
+
+    .ourmissioncolumn-twenty h1 {
+        display: none;
+    }
+
+    .ourmissioncolumn-twenty h2 {
+        font-size: 28px;
+        margin-top: 60px;
+        font-weight: 900;
+        text-align: center;
+        display: inline;
+        background: -webkit-linear-gradient(#000000 ,#03c04a );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .ourmissioncolumn-forty {
+        float: left;
+        width: 100%;
+        margin-top: 0px;
+        padding: 0px 12.5px;
+    }
+
+    .ourmissioncard {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 50px 38px;
+        border-radius: 40px;
+        background: #03c04a;
+        width: 100%;
+        min-height: 340px;
+        margin-bottom: 40px;
+    }
+
+    .ourmissioncard h3 {
+        font-size: 21.5px;
+        color: white;
+        font-weight: 800;
+        line-height: 2.05rem;
+        margin-bottom: 10px;
+    }
+
+    .ourmissioncard p {
+        font-size: 16px;
+        color: white;
+        font-weight: 300;
+        line-height: 1.5rem;
+        margin-top: 17.5px;
+    }
+
+    .industrynews {
+        padding: 10px;
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .industrynews-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12.5px 12.5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .industrynews .industry-left {
+        display: none;
+    }
+
+    .industrynews .industrynewsbottombutton {
+        padding: 12.5px 32.5px;
+        background: #03c04a;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+        display: inline;
+    }
+
+    .industrynews .industrynewsbottombutton a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .industrynewscolumn {
+        float: left;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 45px;
+    }
+
+    .industrynewscontainer img {
+        height: 300px;
+        width: 100%;
+        display: block;
+        transition: 0.5s ease;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        object-fit: cover;
+    }
+
+    .industrynewscontainer {
+        height: 650px;
+        width: 100%;
+        border: 1px solid #ececec;
+        border-radius: 15px;
+    }
+
+    .industrynews h1 {
+        font-size: 28px;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .industrynewscontent .category {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: black;
+        line-height: 1.9rem;
+        margin-bottom: 5px;
+    }
+
+    .industrynewscontent .date {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #03c04a;
+        line-height: 1.5rem;
+    }
+
+    .industrynewscontent .title {
+        font-size: 15px;
+        color: black;
+        font-weight: 700;
+        line-height: 1.4rem;
+        transition: 0.5s;
+    }
+
+    .industrynewscontent p {
+        color: #777777;
+        font-size: 14.5px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 15px 0px;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 15px;
+        min-height: 185vh;
+        align-items: center;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+        margin-top: 40px;
+    }
+
+    .footercolumn15 {
+        width: 100%;
+        float: left;
+        padding: 15px;
+    }
+
+    .footercolumn30 {
+        width: 100%;
+        float: left;
+        padding: 15px;
+        margin-right: 65px;
+        margin-bottom: 60px;
+    }
+
+    .copyright {
+        height: 90px;
+        background: #03c04a;
+        width: 100%;
+        align-items: center;
+    }
+
+    .copyrightcontainer {
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .copyright-left {
+        float: left; 
+        text-align: center;
+        width: 100%;
+    }
+
+    .copyright-right {
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .copyright-left p {
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .copyright-right p {
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .copyright-left a {
+        text-decoration: none;
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    header img {
+        margin-top: 0px;
+        width: 160px;
+        height: 100px;
+        margin-left: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    header .navigation {
+        position: relative;
+        line-height: 75px;
+        margin-right: 60px;
+        display: none;
+    }
+
+    header .bar {
+        background: #03c04a;
+        height: 35px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 82.5%;
+        border-bottom-left-radius: 75px;
+        display: none;
+    }
+
+    header {
+        z-index: 999;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+        transition: 0.6s;
+        height: 115px;
+    }
+
+    .hamburger {
+        display: block;
+        margin-right: 20px;
+    }
+
+    #hamburger {
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        background: linear-gradient( to right,#03c04a, #00FF00);
+        border: none;
+        margin-top: 15px;
+        font-size: 20px;
+        align-items: center;
+        place-items: center;
+        color: white;
+        font-weight: 900;
+        display: grid;
+    }
+
+    #close {
+        display: none;
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        background: linear-gradient( to right,#03c04a, #00FF00);
+        border: none;
+        margin-top: 15px;
+        font-size: 20px;
+        align-items: center;
+        place-items: center;
+        color: white;
+        font-weight: 900;
+    }
+
+    #mobile-menu {
+        position: fixed;
+        display: none;
+        align-items: center;
+        text-align: left;
+        width: 100%;
+        z-index: 99999;
+        background: #ececec;
+        min-height: 70vh;
+        padding: 40px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .mobile-menu a {
+        font-size: 14.5px;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+
+    .mobile-menu i {
+        font-size: 11.5px;
+        margin-left: 5px;
+    }
+
+    .mobile-menu .mobile-social a {
+        color: black;
+        font-size: 18px;
+    }
+
+    .mobile-menu .mobile-social i {
+        font-size: 18px;
+        margin-right: 10px;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .cookingoilchallenge {
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cookingoilchallengecontainer h4 {
+        font-size: 16.5px;
+        font-weight: 900;
+        color: #03c04a;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .cookingoilchallengecontainer h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cookingoilchallengecontainer p {
+        font-size: 34px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-weight: 900;
+        color: black;
+        text-transform: capitalize;
+        background-image: url("coookingoilchallengetimer.jpeg");
+    }
+    
+    .cookingoilchallenge-rows:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .cookingoilchallenge-rows {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+    
+    .cookingoilchallenge-columns {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .cookingoilchallenge-columns:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .cookingoilchallenge-columns h3 {
+        background: -webkit-linear-gradient(#000000 ,#03c04a ); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+        font-weight: 900;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+    
+    .cookingoilchallengecontainer h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+}
